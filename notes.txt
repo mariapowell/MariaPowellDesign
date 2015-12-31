@@ -34,3 +34,13 @@ Development Hours: 6 (10 am)
 Test Deployment:
 - Deploy to a new version
 - cloud.google.com/appengine/docs/python/endpoints/test_deploy
+
+Deployment Steps Internal:
+- git add -A
+- git commit -m 	(to commit to local rep)
+- git push origin master (to commit to github.com)
+
+Publish Changes:
+- change version
+- deploy to GAE and test on version
+- change version default
