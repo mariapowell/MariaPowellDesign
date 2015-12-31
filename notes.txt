@@ -1,0 +1,36 @@
+Steps:
+	- Finish the navbar re-usability
+	- Finish the side bar with re-usability
+	- bottom bar
+	- create schedule maintenance warning and (under maitenance page)
+	- Figure out wich database to use 
+		- needs to store pictures or names of pictures
+
+	- Validation
+	- put in a not found path
+	- UI Testing on different screen 
+	- Automated Testing
+Improvement Notes:
+	- Possibly make the drop down bigger
+	- Build your own necklace tab
+	- Add new tab for store/events
+	- ask Kelsi for shopping cart logo
+	- look into ssl
+	- let users sign in with google accounts: gae user service
+
+Questions:
+	- What database system to use?
+
+
+Left At:
+			- check if mariapowelldesign.com is there yet
+			- GAE versioning: Test out the version deploy functionality
+			- how to deploy code via command line
+
+Learning Hours: 3
+Development Hours: 6 (10 am)
+
+
+Test Deployment:
+- Deploy to a new version
+- cloud.google.com/appengine/docs/python/endpoints/test_deploy

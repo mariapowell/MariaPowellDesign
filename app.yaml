@@ -1,0 +1,42 @@
+application: mariapowell111191
+version: alpha-001
+runtime: python27
+api_version: 1
+threadsafe: true
+
+# [Handlers]
+handlers:
+#To Load all file paths 
+#since GAE does not recognize them directly
+# Note: These have to be loaded before /.*
+- url: /js
+  static_dir: js
+
+- url: /bootstrap
+  static_dir: bootstrap
+
+- url: /css
+  static_dir: css
+
+- url: /scripts
+  static_dir: scripts
+
+- url: /imgs
+  static_dir: imgs
+
+- url: /static
+  static_dir: static
+
+  # [ the .app was added to specify that we are using a WSGI application
+  #   which is needed to enable threadsafe actions]
+- url: /.*
+  script: mariapowelldesign.application 
+
+#potentially put in a script:not_found.app url:/.*
+
+# [Libraries]
+libraries:
+- name: webapp2
+  version: latest
+- name: jinja2
+  version: latest
