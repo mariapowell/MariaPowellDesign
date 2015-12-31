@@ -1,12 +1,29 @@
+
+Left At:
+			- Choose the following tasks:
+					- Set Up Data Store
+					- Set Up Application to Retrieve Data
+					- Create About me page
+			- check if mariapowelldesign.com is there yet
+			- GAE versioning: Test out the version deploy functionality
+
+Learning Hours: 3
+Development Hours: 9
+
 Steps:
-	- Finish the navbar re-usability
-	- Finish the side bar with re-usability
+	- How to handle shipping?
 	- bottom bar
-	- create schedule maintenance warning and (under maitenance page)
+	- design whole sale page
+	- design about me page
+	- design database
+	- talk with Cristina and Kelsi about logo design
+	- 
 	- Figure out wich database to use 
 		- needs to store pictures or names of pictures
 
+PreCaution Steps:
 	- Validation
+	- create schedule maintenance warning and (under maitenance page)
 	- put in a not found path
 	- UI Testing on different screen 
 	- Automated Testing
@@ -16,19 +33,7 @@ Improvement Notes:
 	- Add new tab for store/events
 	- ask Kelsi for shopping cart logo
 	- look into ssl
-	- let users sign in with google accounts: gae user service
-
-Questions:
-	- What database system to use?
-
-
-Left At:
-			- check if mariapowelldesign.com is there yet
-			- GAE versioning: Test out the version deploy functionality
-			- how to deploy code via command line
-
-Learning Hours: 3
-Development Hours: 6 (10 am)
+	- let users sign in with google accounts: gae user service 
 
 
 Test Deployment:
@@ -39,6 +44,8 @@ Deployment Steps Internal:
 - git add -A
 - git commit -m 	(to commit to local rep)
 - git push origin master (to commit to github.com)
+
+https://github.com/mariapowell/MariaPowellDesign/
 
 Publish Changes:
 - change version
