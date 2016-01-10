@@ -1,5 +1,5 @@
 application: mariapowell111191
-version: alpha-001
+version: test-001
 runtime: python27
 api_version: 1
 threadsafe: true
@@ -30,10 +30,15 @@ handlers:
 - url: /services
   static_dir: services
 
+- url: /favicon\.ico
+  static_files: static/images/favicon.ico
+  upload: static/images/favicon\.ico
+
   # [ the .app was added to specify that we are using a WSGI application
   #   which is needed to enable threadsafe actions]
 - url: /.*
   script: mariapowelldesign.application 
+
 
 #potentially put in a script:not_found.app url:/.*
 

@@ -1,5 +1,6 @@
 
 Left At:
+			- Have not deployed the latest version to production
 			- Choose the following tasks:
 					- Set Up Data Store
 					- Set Up Application to Retrieve Data
