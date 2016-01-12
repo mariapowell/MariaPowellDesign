@@ -15,7 +15,7 @@ class HomePage(webapp2.RequestHandler):
 	template_variables = {}
 
 	def get(self):
-		template = JINJA_ENVIRONMENT.get_template('home.html')
+		template = JINJA_ENVIRONMENT.get_template('index.html')
 		self.response.write(template.render())
 
 	#def post(self):
@@ -39,16 +39,16 @@ class HomePage(webapp2.RequestHandler):
 	#	self.response.write(template.render(result))
 
 
-class Admin(webapp2.RequestHandler):
-	template_variables = {}
+#class Admin(webapp2.RequestHandler):
+#	template_variables = {}
 
-	def get(self):
-		template = JINJA_ENVIRONMENT.get_template('admin.html')
-		self.response.write(template.render())
+#	def get(self):
+#		template = JINJA_ENVIRONMENT.get_template('admin.html')
+#		self.response.write(template.render())
 
 
 # starts the application
 application = webapp2.WSGIApplication([
 	('/', HomePage),
-	('/admin', Admin),
+#	('/admin', Admin),
 ], debug=True)

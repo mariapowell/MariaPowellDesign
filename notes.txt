@@ -1,6 +1,7 @@
 
 Left At:
-			- Have not deployed the latest version to production
+			- admin.html: include controller and set up to display data
+							then watch routing tutorial on angularjs
 			- Choose the following tasks:
 					- Set Up Data Store
 					- Set Up Application to Retrieve Data
@@ -10,17 +11,21 @@ Left At:
 
 Learning Hours: 3
 Development Hours: 9
+11-
 
 Steps:
+	- improve favicon icon
 	- How to handle shipping?
 	- bottom bar
 	- design whole sale page
 	- design about me page
 	- design database
 	- talk with Cristina and Kelsi about logo design
-	- 
+	- change navigation bar
 	- Figure out wich database to use 
 		- needs to store pictures or names of pictures
+
+	- figure out how to make both URLs available
 
 PreCaution Steps:
 	- Validation
@@ -29,12 +34,15 @@ PreCaution Steps:
 	- UI Testing on different screen 
 	- Automated Testing
 Improvement Notes:
+	- possibly give wish list and stuff like that
 	- Possibly make the drop down bigger
 	- Build your own necklace tab
 	- Add new tab for store/events
 	- ask Kelsi for shopping cart logo
 	- look into ssl
 	- let users sign in with google accounts: gae user service 
+	- make the tab look pretty
+
 
 
 Test Deployment:
