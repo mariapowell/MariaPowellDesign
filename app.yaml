@@ -30,6 +30,10 @@ handlers:
 - url: /services
   static_dir: services
 
+- url: /templates
+  static_dir: templates
+
+#To look the browser tab logo
 - url: /favicon\.ico
   static_files: static/images/favicon.ico
   upload: static/images/favicon\.ico

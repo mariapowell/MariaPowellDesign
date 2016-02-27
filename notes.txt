@@ -1,7 +1,6 @@
 
 Left At:
-			- admin.html: include controller and set up to display data
-							then watch routing tutorial on angularjs
+			- admin.html: JInja now points to index.html but the view in it is not yet loading so view video on how to do that 
 			- Choose the following tasks:
 					- Set Up Data Store
 					- Set Up Application to Retrieve Data
@@ -10,8 +9,8 @@ Left At:
 			- GAE versioning: Test out the version deploy functionality
 
 Learning Hours: 3
-Development Hours: 9
-11-
+Development Hours: 17
+7:30 - 
 
 Steps:
 	- improve favicon icon
